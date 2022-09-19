@@ -17,6 +17,9 @@
     letter-spacing: 5px;
 }
 /* Above Header Section */
+.foto img{
+    max-width : 100%
+}
 /* Below About Section */
 .tentang-1{
     background-color: #333;
