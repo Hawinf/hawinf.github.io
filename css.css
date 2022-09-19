@@ -1,0 +1,40 @@
+.kontainer{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(index666.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.kepala{
+    color: whitesmoke;
+}
+.kepala h1 span{
+    color: wheat;
+}
+.kepala h1{
+    letter-spacing: 5px;
+}
+/* Above Header Section */
+/* Below About Section */
+.tentang-1{
+    background-color: #333;
+}
+.tentang-2{
+    background-color: rgb(48, 41, 41);
+}
+.tentang-3{
+    background-color: rgb(27, 19, 19);;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    .kontainer .kepala{
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  
