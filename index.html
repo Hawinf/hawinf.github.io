@@ -40,7 +40,7 @@
             <h4 class="fs-5 lh-1 fw-bold">Hello everyone, my name is</h4>
             <h1 class="fw-bolder fs-1">HAWIN <span>FAHMI</span></h1>
             <h4 class="fs-5 lh-1 fw-bold">Front End Developer</h4>
-            <button class="btn btn-primary">Hire me</button>
+            <a class="btn btn-primary" href=" https://wa.me/6282145145656">Hire me</a>
         </div>
     </div>
     <!-- End Of Header -->
@@ -128,7 +128,7 @@
                                 <div class="col-lg-6">
                                     <label class="form-label
                                     for="name">First-Name</label>
-                                    <input class="form-control" type="text" id="name" required="required" autocomplete="off" placeholder="First-Name">
+                                    <input class="form-control mb-3" type="text" id="name" required="required" autocomplete="off" placeholder="First-Name">
                                 </div>
                                 <div class="col-lg-6">
                                     <label class="form-label
@@ -163,7 +163,7 @@
     </div>
     <!-- End Of Contact -->
     <!-- Start Footer -->
-    <div class="container-fluid tentang-4 py-3">
+    <div class="container-fluid tentang-4 py-2">
       <p class="text-center text-white"> © 2022 Hawinf. All rights reserved
       </p>
     </div>
@@ -177,7 +177,7 @@
   var myAlert = document.getElementById('myAlert');
 
   myAlert.style.display = 'none';
-  function myButton(){
+  function myFunction(){
     myAlert.style.display = 'block';
   }
   // above form section
@@ -196,12 +196,12 @@
     btnLoading.style.display = 'none';
     btnKirim.style.display = 'block';
   }
-  function simpanform(){
+  function myButton(){
     startProses();
 
-    setTimeout (function(){
-      endProses() ; myButton();
-    },3000);
+    setTimeout(function(){
+      endProses();myFunction();
+    }, 3000)
   }
   // above loading section
 </script>
